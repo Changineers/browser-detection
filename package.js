@@ -1,5 +1,5 @@
 Package.describe({
-  name: "vilango:browser-detection",
+  name: "changineers:browser-detection",
   summary: "Meteorite package that provides browser detection.",
   version: "1.0.4"
 });
