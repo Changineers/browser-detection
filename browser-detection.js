@@ -37,6 +37,12 @@ BrowserDetect = {
             identity: "Chrome",
             versionSearch: "CriOS"
         },
+        {
+            string: navigator.userAgent,
+            subString: "FxiOS",
+            identity: "Firefox",
+            versionSearch: "FxiOS"
+        },
         { 	string: navigator.userAgent,
             subString: "OmniWeb",
             versionSearch: "OmniWeb/",
