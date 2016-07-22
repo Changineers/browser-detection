@@ -30,6 +30,13 @@ BrowserDetect = {
             subString: "Chrome",
             identity: "Chrome"
         },
+        {
+            // see https://developer.chrome.com/multidevice/user-agent#chrome_for_ios_user_agent
+            string: navigator.userAgent,
+            subString: "CriOS",
+            identity: "Chrome",
+            versionSearch: "CriOS"
+        },
         { 	string: navigator.userAgent,
             subString: "OmniWeb",
             versionSearch: "OmniWeb/",
